@@ -22,7 +22,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://Harish:Harish@cluster0.wxdglqf.mongodb.net/sample_mflix', {
+mongoose.connect('mongodb+srv://####@cluster0.wxdglqf.mongodb.net/sample_mflix', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
